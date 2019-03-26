@@ -1,0 +1,17 @@
+# These files are not binary
+# git
+**/.gitattributes text diff
+**/.gitignore text diff
+# Markdown
+*.md text diff
+*.MD text diff
+# Powershell
+*.ps1 text diff
+*.psm1 text diff
+*.psd1 text diff
+# XML
+*.xml text diff
+*.XML text diff
+
+# Normalize line endings to maintain sanity (and play nicer with codesearch)
+* text=auto
